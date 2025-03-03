@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url("https://cdn.glitch.global/dd42e10e-f0c2-4b76-8f58-925f97f78f52/images.jpeg?v=1741022243291");
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
 }
 
 h1{
-  font-size: 30px;
-  color: white;
+  font-size: 40px;
 }
 
 #myCanvas {
   background-size: 600px 400px;
   border-radius: 30px;
-  border: 5px solid white;
+  border: 5px solid rgb(124, 176, 227);
 }
 
+.mystery {
+  font-family: "Mystery Quest", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(124, 176, 227);
+}
 
 
