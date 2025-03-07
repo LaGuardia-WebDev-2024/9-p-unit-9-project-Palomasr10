@@ -12,17 +12,6 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
-    var drawCone = function(coneX, coneY){
-textSize(40);
-text("🎉", coneX, coneY)};
-
-var drawCone2 = function(cone2X, cone2Y){
-textSize(40);
-text("🎊", cone2X, cone2Y)};
-
-var drawParty = function(partyX, partyY){
-textSize(40);
-text("🥳", partyX, partyY)};
 
   
   if (answer == 1) {
@@ -87,6 +76,18 @@ text ("Ask me a question...", 150, 70);
 
   
 };
+
+ var drawCone = function(coneX, coneY){
+textSize(40);
+text("🎉", coneX, coneY)};
+
+var drawCone2 = function(cone2X, cone2Y){
+textSize(40);
+text("🎊", cone2X, cone2Y)};
+
+var drawParty = function(partyX, partyY){
+textSize(40);
+text("🥳", partyX, partyY)};
 
 mouseClicked = function(){
   answer = round(random(1, 7));
